@@ -2,31 +2,31 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://agiftforyouuu.vercel.app'),
-  title: 'Happy Birthday Ahmed! 🎂',
-  description: 'A special birthday message for Ahmed 🤍',
+  metadataBase: new URL('https://happysecondanniversary.vercel.app'),
+  title: 'Happy Anniversary Mohamed! 🤍',
+  description: 'A special anniversary message for Mohamed 🤍',
   openGraph: {
-    title: 'Happy Birthday Ahmed! 🎂',
-    description: 'A special birthday message for Ahmed 🤍',
-    url: 'https://agiftforyouuu.vercel.app',
-    siteName: 'Birthday Gift',
+    title: 'Happy Anniversary Mohamed! 🤍',
+    description: 'A special anniversary message for Mohamed 🤍',
+    url: 'https://happysecondanniversary.vercel.app',
+    siteName: 'Anniversary Gift',
     type: 'website',
     images: [
       {
-        url: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
-        secureUrl: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
+        url: 'https://happysecondanniversary.vercel.app/images/og-anniversary.jpg',
+        secureUrl: 'https://happysecondanniversary.vercel.app/images/og-anniversary.jpg',
         width: 1200,
         height: 630,
         type: 'image/jpeg',
-        alt: 'Happy Birthday Ahmed Cat 🐱🎂',
+        alt: 'Happy Anniversary Mohamed Cat 🐱🤍',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Happy Birthday Ahmed! 🎂',
-    description: 'A special birthday message for Ahmed 🤍',
-    images: ['https://agiftforyouuu.vercel.app/images/og-cat.jpg'],
+    title: 'Happy Anniversary Mohamed! 🤍',
+    description: 'A special anniversary message for Mohamed 🤍',
+    images: ['https://happysecondanniversary.vercel.app/images/og-anniversary.jpg'],
   },
 }
 

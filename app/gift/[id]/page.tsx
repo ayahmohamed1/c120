@@ -13,13 +13,13 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     openGraph: {
       title: `Happy Anniversary ${data.receiverName}! 🤍`,
       description: `A special anniversary message for ${data.receiverName} 🤍`,
-      url: `https://agiftforyouuu.vercel.app/gift/${params.id.toLowerCase()}`,
+      url: `https://happysecondanniversary.vercel.app/gift/${params.id.toLowerCase()}`,
       siteName: 'Anniversary Gift',
       type: 'website',
       images: [
         {
-          url: 'https://agiftforyouuu.vercel.app/images/og-anniversary.jpg',
-          secureUrl: 'https://agiftforyouuu.vercel.app/images/og-anniversary.jpg',
+          url: 'https://happysecondanniversary.vercel.app/images/og-anniversary.jpg',
+          secureUrl: 'https://happysecondanniversary.vercel.app/images/og-anniversary.jpg',
           width: 1200,
           height: 630,
           type: 'image/jpeg',
@@ -31,7 +31,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
       card: 'summary_large_image',
       title: `Happy Anniversary ${data.receiverName}! 🤍`,
       description: `A special anniversary message for ${data.receiverName} 🤍`,
-      images: ['https://agiftforyouuu.vercel.app/images/og-anniversary.jpg'],
+      images: ['https://happysecondanniversary.vercel.app/images/og-anniversary.jpg'],
     },
   }
 }
