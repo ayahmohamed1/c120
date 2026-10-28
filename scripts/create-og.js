@@ -38,8 +38,8 @@ async function generateOG() {
       <text x="1040" y="490" fill="#dfc08f" font-size="24" opacity="0.6">✧</text>
 
       <!-- Badge / Header Text -->
-      <rect x="425" y="55" width="350" height="42" rx="21" fill="rgba(223, 192, 143, 0.2)" stroke="#dfc08f" stroke-width="1.5"/>
-      <text x="600" y="83" font-family="'Nunito', sans-serif" font-weight="800" font-size="19" fill="#f7eedc" text-anchor="middle" letter-spacing="3">HAPPY BIRTHDAY AHMED</text>
+      <rect x="375" y="55" width="450" height="42" rx="21" fill="rgba(223, 192, 143, 0.2)" stroke="#dfc08f" stroke-width="1.5"/>
+      <text x="600" y="83" font-family="'Nunito', sans-serif" font-weight="800" font-size="18" fill="#f7eedc" text-anchor="middle" letter-spacing="2.5">HAPPY ANNIVERSARY MOHAMED</text>
 
       <!-- Footer Text -->
       <text x="600" y="585" font-family="'Playfair Display', serif" font-weight="700" font-size="24" fill="#dfc08f" text-anchor="middle" letter-spacing="2">A Special Gift For You 🎁</text>
@@ -55,6 +55,7 @@ async function generateOG() {
     .toBuffer();
 
   fs.writeFileSync('public/images/og-cat.jpg', og1200);
+  fs.writeFileSync('public/images/og-anniversary.jpg', og1200);
   fs.writeFileSync('public/images/share-cover.jpg', og1200);
 
   // Also create a PNG version
@@ -65,6 +66,7 @@ async function generateOG() {
     .png({ quality: 90 })
     .toBuffer();
   fs.writeFileSync('public/images/og-cat.png', og1200Png);
+  fs.writeFileSync('public/images/og-anniversary.png', og1200Png);
   fs.writeFileSync('public/images/share-cover.png', og1200Png);
 
   // Also create a square 600x600 preview (some apps prefer 1:1)

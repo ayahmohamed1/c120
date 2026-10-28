@@ -8,30 +8,30 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   if (!data) return { title: 'Gift Not Found' }
   
   return {
-    title: `Happy Birthday ${data.receiverName}! 🎂`,
-    description: `A special birthday message for ${data.receiverName} 🤍`,
+    title: `Happy Anniversary ${data.receiverName}! 🤍`,
+    description: `A special anniversary message for ${data.receiverName} 🤍`,
     openGraph: {
-      title: `Happy Birthday ${data.receiverName}! 🎂`,
-      description: `A special birthday message for ${data.receiverName} 🤍`,
+      title: `Happy Anniversary ${data.receiverName}! 🤍`,
+      description: `A special anniversary message for ${data.receiverName} 🤍`,
       url: `https://agiftforyouuu.vercel.app/gift/${params.id.toLowerCase()}`,
-      siteName: 'Birthday Gift',
+      siteName: 'Anniversary Gift',
       type: 'website',
       images: [
         {
-          url: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
-          secureUrl: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
+          url: 'https://agiftforyouuu.vercel.app/images/og-anniversary.jpg',
+          secureUrl: 'https://agiftforyouuu.vercel.app/images/og-anniversary.jpg',
           width: 1200,
           height: 630,
           type: 'image/jpeg',
-          alt: `Happy Birthday ${data.receiverName} Cat 🐱🎂`,
+          alt: `Happy Anniversary ${data.receiverName} Cat 🐱🤍`,
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Happy Birthday ${data.receiverName}! 🎂`,
-      description: `A special birthday message for ${data.receiverName} 🤍`,
-      images: ['https://agiftforyouuu.vercel.app/images/og-cat.jpg'],
+      title: `Happy Anniversary ${data.receiverName}! 🤍`,
+      description: `A special anniversary message for ${data.receiverName} 🤍`,
+      images: ['https://agiftforyouuu.vercel.app/images/og-anniversary.jpg'],
     },
   }
 }

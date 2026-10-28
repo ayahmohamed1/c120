@@ -10,12 +10,12 @@ export const metadata: Metadata = {
     title: 'Happy anniversary mohamed! 🎂',
     description: 'A special anniversary message for mohamed 🤍',
     url: 'https://agiftforyouuu.vercel.app',
-    siteName: 'Birthday Gift',
+    siteName: 'Anniversary Gift',
     type: 'website',
     images: [
       {
-        url: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
-        secureUrl: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
+        url: 'https://agiftforyouuu.vercel.app/images/og-anniversary.jpg',
+        secureUrl: 'https://agiftforyouuu.vercel.app/images/og-anniversary.jpg',
         width: 1200,
         height: 630,
         type: 'image/jpeg',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Happy anniversary mohamed! 🎂',
     description: 'A special anniversary message for mohamed 🤍',
-    images: ['https://agiftforyouuu.vercel.app/images/og-cat.jpg'],
+    images: ['https://agiftforyouuu.vercel.app/images/og-anniversary.jpg'],
   },
 }
 
