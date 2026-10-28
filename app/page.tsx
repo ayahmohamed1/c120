@@ -32,6 +32,6 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  const data = giftData.ahmed || giftData.amir
+  const data = giftData.mohamed || giftData.ahmed || giftData.amir
   return <GiftClient data={data} />
 }

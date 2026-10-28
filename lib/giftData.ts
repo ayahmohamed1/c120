@@ -59,8 +59,10 @@ Every day with you feels like a blessing, and I fall in love with you more deepl
 };
 
 const giftData: Record<string, GiftData> = {
+  mohamed: ahmedGift,
   ahmed: ahmedGift,
   amir: ahmedGift,
+  anniversary: ahmedGift,
   aya: {
     ...ahmedGift,
     senderName: "Aya",
