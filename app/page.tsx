@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Happy anniversary mohamed! 🎂',
   description: 'A special anniversary message for mohamed 🤍',
   openGraph: {
-    title: 'Happy anniversary moahmed! 🎂',
+    title: 'Happy anniversary mohamed! 🎂',
     description: 'A special anniversary message for mohamed 🤍',
     url: 'https://agiftforyouuu.vercel.app',
     siteName: 'Birthday Gift',
