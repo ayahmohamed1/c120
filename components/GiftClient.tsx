@@ -157,7 +157,7 @@ export default function GiftClient({ data }: Props) {
       audioRef.current.pause()
       setMusicPlaying(false)
     } else {
-      audioRef.current.play().catch(() => {})
+      audioRef.current.play().catch(() => { })
       setMusicPlaying(true)
     }
   }, [musicPlaying])
@@ -184,9 +184,8 @@ export default function GiftClient({ data }: Props) {
 
       {/* ── SCREEN 1: INTRO (الظرف) ── */}
       <section
-        className={`screen intro-screen ${
-          screen === 'intro' ? (introExiting ? 'exit' : 'visible') : 'hidden'
-        }`}
+        className={`screen intro-screen ${screen === 'intro' ? (introExiting ? 'exit' : 'visible') : 'hidden'
+          }`}
         onClick={handleEnvelopeClick}
         role="button"
         tabIndex={0}
@@ -285,7 +284,7 @@ export default function GiftClient({ data }: Props) {
                   navigateTo('birthdayMessage')
                 }}
               >
-                <span>birthday message</span>
+                <span>anniversary message</span>
                 <span className="pulse-arrow">→</span>
               </button>
             </div>
@@ -295,9 +294,8 @@ export default function GiftClient({ data }: Props) {
 
       {/* ── SCREEN 4: BIRTHDAY MESSAGE + BALLOON (بيدج مسدج العيد ميلاد + البالونة ballon) ── */}
       <section
-        className={`screen birthday-message-screen ${
-          screen === 'birthdayMessage' ? 'visible' : 'hidden'
-        }`}
+        className={`screen birthday-message-screen ${screen === 'birthdayMessage' ? 'visible' : 'hidden'
+          }`}
       >
         <div className="screen-scroll-container">
           <div className="stationery-card birthday-wishes-card">
@@ -392,9 +390,8 @@ export default function GiftClient({ data }: Props) {
 
       {/* ── SCREEN 6: LOVE LETTER (The little things I love about you) ── */}
       <section
-        className={`screen love-letter-screen ${
-          screen === 'loveLetter' ? 'visible' : 'hidden'
-        }`}
+        className={`screen love-letter-screen ${screen === 'loveLetter' ? 'visible' : 'hidden'
+          }`}
       >
         <div className="screen-scroll-container">
           <div className="stationery-card love-letter-card">
@@ -418,9 +415,8 @@ export default function GiftClient({ data }: Props) {
                   return (
                     <p
                       key={idx}
-                      className={`letter-para ${
-                        isAccent ? 'letter-para-accent' : ''
-                      }`}
+                      className={`letter-para ${isAccent ? 'letter-para-accent' : ''
+                        }`}
                     >
                       {para}
                     </p>
